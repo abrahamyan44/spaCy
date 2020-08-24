@@ -28,6 +28,11 @@ _abbrev_exc = [
     {ORTH: "հոկ", LEMMA: "հոկտեմբեր", NORM: "հոկտեմբեր"},
     {ORTH: "նոյ", LEMMA: "նոյեմբեր", NORM: "նոյեմբեր"},
     {ORTH: "դեկ", LEMMA: "դեկտեմբեր", NORM: "դեկտեմբեր"},
+    # Length abbreviations
+    {ORTH: "մմ", LEMMA: "միլիմետր", NORM: "միլիմետր"},
+    {ORTH: "սմ", LEMMA: "սանտիմետր", NORM: "սանտիմետր"},
+    {ORTH: "մ", LEMMA: "մետր", NORM: "մետր"},
+    {ORTH: "կմ", LEMMA: "կիլոմետր", NORM: "կիլոմետր"},
 ]
 
 

@@ -1,5 +1,7 @@
 # coding: utf8
-from __future__ import unicode_literals
+
+from __future__ import unicode_literals, print_function
+from .tokenizer_exceptions import TOKENIZER_EXCEPTIONS
 
 from .stop_words import STOP_WORDS
 from .lex_attrs import LEX_ATTRS
@@ -7,6 +9,10 @@ from .tag_map import TAG_MAP
 
 from ...attrs import LANG
 from ...language import Language
+
+from ..tokenizer_exceptions import BASE_EXCEPTIONS
+from ...util import update_exc
+from ...lookups import Lookups
 
 
 class ArmenianDefaults(Language.Defaults):
@@ -18,11 +24,6 @@ class ArmenianDefaults(Language.Defaults):
     stop_words = STOP_WORDS
     tag_map = TAG_MAP
 
-    @classmethod
-    def create_lemmatizer(cls, nlp=None, lookups=None):
-        if lookups is None:
-            lookups = Lookups()
-        return ArmenianLemmatizer(lookups)
 
 class Armenian(Language):
     lang = "hy"
