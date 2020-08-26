@@ -1,6 +1,6 @@
 # coding: utf8
 
-from __future__ import unicode_literals, print_function
+from __future__ import unicode_literals
 from .tokenizer_exceptions import TOKENIZER_EXCEPTIONS
 
 from .stop_words import STOP_WORDS
@@ -12,7 +12,6 @@ from ...language import Language
 
 from ..tokenizer_exceptions import BASE_EXCEPTIONS
 from ...util import update_exc
-from ...lookups import Lookups
 
 
 class ArmenianDefaults(Language.Defaults):
