@@ -33,7 +33,7 @@ _abbrev_exc = [
     {ORTH: "սմ", LEMMA: "սանտիմետր", NORM: "սանտիմետր"},
     {ORTH: "մ", LEMMA: "մետր", NORM: "մետր"},
     {ORTH: "կմ", LEMMA: "կիլոմետր", NORM: "կիլոմետր"},
-    # Short Word abbreviations
+    # Other common abbreviations
     {ORTH: "թ․", LEMMA: "թվական", NORM: "թվական"},
     {ORTH: "ծն", LEMMA: "ծնված", NORM: "ծնված"},
     {ORTH: "մահ․", LEMMA: "մահացած", NORM: "մահացած"},
