@@ -58,7 +58,4 @@ for abbrev_desc in _abbrev_exc:
             {ORTH: orth + ".", LEMMA: abbrev_desc[LEMMA], NORM: abbrev_desc[NORM]}
         ]
 
-
-
-
 TOKENIZER_EXCEPTIONS = _exc
